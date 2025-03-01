@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Righteous', sans-serif;
+  color: white;
+}
+h1 {
+  color: #FDB913;
+  font-size: 38px;
+}
+h2 {
+  color: #FDB913;
+}
+th {
+  font-weight: 400;
+}
+ body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: repeating-linear-gradient(
+    90deg,  /* Angle for diagonal stripes */
+    #004D98,  /* Blue (FC Barcelona Blue) */
+    #004D98 180px, 
+    #A50044 180px,  /* Claret (FC Barcelona Red) */
+    #A50044 300px   /* Stripe thickness */
+  );
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+}
+
+th {
+  width: 120px;
+  padding-top:25px;
+  padding-bottom:30px;
+}
+
+td {
+  padding: 5px;
+  color: black;
+}
+
+.time {
+  height: 40px;
+  color: white;
+}
+.Event {
+  width: 100px;
+  border-radius: 5px;
+  box-shadow: 8px 8px #00000042;
+}
+
+.Event h6, h5 {
+  align-content: center;
+}
+
+.home {
+  background: #FDB913;
+}
+
+.away {
+  background: rgb(18, 187, 199);
+}
+
+.practice {
+  background: rgb(7, 153, 38);
+} 
+.lunch {
+  background: #d82b2b;
+}
+
+.Event {
+  cursor: pointer;  /* Makes the event appear clickable */
+
+}
+
+.Event:hover {
+  background-color: lightgray;  /* Optional: Change background on hover */
+  transition: .3s ease;
+}
