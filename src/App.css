@@ -9,11 +9,12 @@
   color: white;
 }
 h1 {
-  color: #FDB913;
-  font-size: 38px;
+  color: #006747;
+  font-size: 28px;
 }
 h2 {
-  color: #FDB913;
+  color: #006747;
+  font-size: 18px;
 }
 th {
   font-weight: 400;
@@ -24,13 +25,13 @@ th {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background: repeating-linear-gradient(
-    90deg,  /* Angle for diagonal stripes */
-    #004D98,  /* Blue (FC Barcelona Blue) */
+  /* background: repeating-linear-gradient(
+    90deg, 
+    #004D98,  
     #004D98 180px, 
-    #A50044 180px,  /* Claret (FC Barcelona Red) */
-    #A50044 300px   /* Stripe thickness */
-  );
+    #A50044 180px, 
+    #A50044 300px  
+  ); */
 }
 
 body {
@@ -66,19 +67,16 @@ td {
   align-content: center;
 }
 
-.home {
-  background: #FDB913;
+.bg {
+  background: #CFC493;
 }
 
 .away {
   background: rgb(18, 187, 199);
 }
 
-.practice {
-  background: rgb(7, 153, 38);
-} 
-.lunch {
-  background: #d82b2b;
+table {
+  border-spacing: 10px 30px;
 }
 
 .Event {
@@ -89,4 +87,21 @@ td {
 .Event:hover {
   background-color: lightgray;  /* Optional: Change background on hover */
   transition: .3s ease;
+}
+
+button {
+  color: white;
+  background-color: #006484;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+button:hover {
+  transform: scale(1.1);
+  transition: .2s ease-in
+}
+
+td:hover {
+  transform: scale(1.1);
+  transition: .2s ease-in-out;
+  box-shadow: 0px 0px 15px rgba(0, 255, 0, 0.8);
 }
